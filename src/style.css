@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Mulish:wght@400;700&family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+.main{
+    margin: 30px 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 20px;
+}
+.card > img{
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .main{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

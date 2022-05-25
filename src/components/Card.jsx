@@ -7,17 +7,17 @@ const Card = ({ array }) => {
         <div className="card">
           <img src={e.image} className="image"/>
           <div className="left">
-            <h2 key={e.id}>{e.name}</h2>
-            <p>{e.about}</p>
-            <p>{e.cost}</p>
+            <h3 key={e.id}>{e.name}</h3>
+            <p className="para">{e.about}</p>
+            <p className="para">{e.cost}</p>
             <p>{e.min}</p>
-            <p>{e.payment}</p>
+            <p >{e.payment}</p>
           </div>
           <div className="right">
-              <button>{e.rating}</button>
+              <button className="rating">{e.rating}</button>
               <p>{e.votes}</p>
               <p>{e.reviews}</p>
-              <button>{e.order}</button>
+              <button className="order">{e.order}</button>
           </div>
         </div>
       ))}

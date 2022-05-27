@@ -16,7 +16,7 @@ const Card = ({ array }) => {
           <div className="right">
               <button className="rating">{e.rating}</button>
               <p>{e.votes}</p>
-              <p>{e.reviews}</p>
+              <div>{e.reviews}</div>
               <button className="order">{e.order}</button>
           </div>
         </div>

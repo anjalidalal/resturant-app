@@ -4,7 +4,7 @@ const Card = ({ array }) => {
   return (
     <div className="main">
       {array.map((e) => (
-        <div className="card">
+        <div className="card" key={e.id}>
           <img src={e.image} className="image"/>
           <div className="left">
             <h3 key={e.id}>{e.name}</h3>

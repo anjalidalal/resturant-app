@@ -57,7 +57,7 @@ const CardComponent = () => {
             id : nanoid(4)
         },
         {
-            name : "Sliced Pepperoni Pizza",
+            name : "Pepperoni Pizza",
             image : "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             about : "Pizza, Burger",
             cost: "Cost ₹200 for one",
@@ -122,7 +122,7 @@ const CardComponent = () => {
             id : nanoid(4)
         },
         {
-            name : "White Ceramic Plate",
+            name : "White Ceramic",
             image : "https://images.pexels.com/photos/19642/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             about: "Afgan, Fast Food",
             cost: "Cost ₹250 for one",
@@ -161,7 +161,7 @@ const CardComponent = () => {
             id : nanoid(4)
         },
         {
-            name : "Choclate Ice Cream",
+            name : "Ice Cream",
             image : "https://images.pexels.com/photos/2819088/pexels-photo-2819088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             about : "Delicious Desert, India",
             cost: "Cost ₹600 for one",

@@ -1,13 +1,13 @@
-import react from "react";
+import React from "react";
 
-const Card = ({ array }) => {
+const Card = ({ data }) => {
   return (
     <div className="main">
-      {array.map((e) => (
-        <div className="card" key={e.id}>
+      {data.map((e, index) => (
+        <div className="card" key={index}>
           <img src={e.image} className="image"/>
           <div className="left">
-            <h3 key={e.id}>{e.name}</h3>
+            <h3 >{e.name}</h3>
             <p className="para">{e.about}</p>
             <p className="para">{e.cost}</p>
             <p>{e.min}</p>

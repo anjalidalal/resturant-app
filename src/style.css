@@ -78,6 +78,23 @@ h3{
     line-height: 1;
     height: 40px;
 }
+.sort > div > button{
+    font-size: 10px;
+    margin-right: 4px;
+    border: none;
+    background-color: rgba(243, 60, 60, 0.864);
+    color: white;
+    border-radius: 4px;
+    padding: 2px 3px;
+}
+.sort > div > p{
+  color: #3c3b3b;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
 @media (min-width: 768px) {
     .main{
         display: grid;
@@ -95,5 +112,24 @@ h3{
       .rating{
         width: 30px;
         padding: 5px 0px;
+    }
+    .sort{
+        margin: 30px 10px 20px 10px;
+        display: flex;
+        gap: 44px;
+    }
+    .sort > div{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .sort > div > button{
+        font-size: 14px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .sort > div > p{
+      font-size: 17px;
+      font-weight: 500;
     }
 }

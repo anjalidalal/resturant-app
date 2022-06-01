@@ -18,7 +18,7 @@
     "cost": "Cost ₹500 for one",
     "min": "Min ₹200",
     "payment": "Accepts all payments",
-    "rating": 5.4,
+    "rating": 1.5,
     "votes": "45 votes",
     "reviews": "58 reviews",
     "order": "Order Online"
@@ -30,7 +30,7 @@
     "cost": "Cost ₹800 for one",
     "min": "Min ₹500",
     "payment": "Accepts online payments",
-    "rating": 4.4,
+    "rating": 2,
     "votes": "65 votes",
     "reviews": "79 reviews",
     "order": "Order Online"
@@ -42,7 +42,7 @@
     "cost": "Cost ₹900 for one",
     "min": "Min ₹400",
     "payment": "Accepts all payments",
-    "rating": 4.2,
+    "rating": 4,
     "votes": "77 votes",
     "reviews": "99 reviews",
     "order": "Order Online"
@@ -90,7 +90,7 @@
     "cost": "Cost ₹800 for one",
     "min": "Min ₹200",
     "payment": "Accepts cash only",
-    "rating": 5.3,
+    "rating": 3,
     "votes": "79 votes",
     "reviews": "97 reviews",
     "order": "Order Online"
@@ -102,7 +102,7 @@
     "cost": "Cost ₹650 for one",
     "min": "Min ₹250",
     "payment": "Accepts all payments",
-    "rating": 4.5,
+    "rating": 2,
     "votes": "70 votes",
     "reviews": "80 reviews",
     "order": "Order Online"
@@ -138,7 +138,7 @@
     "cost": "Cost ₹600 for one",
     "min": "Min ₹180",
     "payment": "Accepts all payments",
-    "rating": 3.5,
+    "rating": 3,
     "votes": "25 votes",
     "reviews": "28 reviews",
     "order": "Order Online"
@@ -150,7 +150,7 @@
     "cost": "Cost ₹600 for one",
     "min": "Min ₹280",
     "payment": "Accepts online payments",
-    "rating": 5.5,
+    "rating": 1.3,
     "votes": "85 votes",
     "reviews": "88 reviews",
     "order": "Order Online"
@@ -186,7 +186,7 @@
     "cost": "Cost ₹90 for one",
     "min": "Min ₹50",
     "payment": "Accepts all payments",
-    "rating": 2.1,
+    "rating": 4.2,
     "votes": "44 votes",
     "reviews": "22 reviews",
     "order": "Order Online"
@@ -198,7 +198,7 @@
     "cost": "Cost ₹540 for one",
     "min": "Min ₹400",
     "payment": "Accepts online payments",
-    "rating": 4,
+    "rating": 1.5,
     "votes": "45 votes",
     "reviews": "75 reviews",
     "order": "Order Online"
@@ -210,7 +210,7 @@
     "cost": "Cost ₹620 for one",
     "min": "Min ₹300",
     "payment": "Accepts online payments",
-    "rating": 5,
+    "rating": 3,
     "votes": "65 votes",
     "reviews": "70 reviews",
     "order": "Order Online"
@@ -222,7 +222,7 @@
     "cost": "Cost ₹60 for one",
     "min": "Min ₹10",
     "payment": "Accepts all payments",
-    "rating": 2,
+    "rating": 1,
     "votes": "45 votes",
     "reviews": "30 reviews",
     "order": "Order Online"

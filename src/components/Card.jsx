@@ -12,36 +12,84 @@ const Card = () => {
     );
     setRestaurantData(filteredData);
   };
+
+  const sortData = (event) => {
+    const sortBy = event.target.dataset.value;
+    let sortedData = [];
+    if (sortBy === "highToLow") {
+      sortedData = restaurantData.sort((a, b) => {
+        return a.cost - b.cost;
+      });
+    } else {
+      sortedData = restaurantData.sort((a, b) => {
+        return b.cost - a.cost;
+      });
+    }
+    setRestaurantData([...sortedData]);
+  };
+
+  const handlePaymentMethod = (event) => {
+    const filterBy = event.target.dataset.value;
+    const filteredData = data.filter((e) => {
+      if (filterBy === e.payment) {
+        return true;
+      }
+    });
+    setRestaurantData(filteredData);
+  };
+
   return (
     <>
       <h1>Restaurant App</h1>
       <div className="sort">
-      <div>
+        <div>
           <p>Payment Mode</p>
-          <button>All Modes</button>
-          <button>Cash Only</button>
-          <button>Online Payments</button>
-      </div>
-      <div>
-        <p>Sort By Stars</p>
-        <button onClick={handelClicked} data-value={4}>
-          Above 4 Star
-        </button>
-        <button onClick={handelClicked} data-value={3}>
-          Above 3 Star
-        </button>
-        <button onClick={handelClicked} data-value={2}>
-          Above 2 Star
-        </button>
-        <button onClick={handelClicked} data-value={1}>
-          Above 1 Star
-        </button>
-      </div>
-      <div>
+          <button
+            className="btn"
+            onClick={handlePaymentMethod}
+            data-value={"Accepts all payments"}
+          >
+            All Modes
+          </button>
+          <button
+            className="btn"
+            onClick={handlePaymentMethod}
+            data-value={"Accepts cash only"}
+          >
+            Cash Only
+          </button>
+          <button
+            className="btn"
+            onClick={handlePaymentMethod}
+            data-value={"Accepts online payments"}
+          >
+            Online Payments
+          </button>
+        </div>
+        <div>
+          <p>Sort By Stars</p>
+          <button className="btn" onClick={handelClicked} data-value={4}>
+            Above 4 Star
+          </button>
+          <button className="btn" onClick={handelClicked} data-value={3}>
+            Above 3 Star
+          </button>
+          <button className="btn" onClick={handelClicked} data-value={2}>
+            Above 2 Star
+          </button>
+          <button className="btn" onClick={handelClicked} data-value={1}>
+            Above 1 Star
+          </button>
+        </div>
+        <div>
           <p>Sort By Amount</p>
-          <button>High To Low</button>
-          <button>Low To High</button>
-      </div>
+          <button className="btn" onClick={sortData} data-value={"highToLow"}>
+            High To Low
+          </button>
+          <button className="btn" onClick={sortData} data-value={"lowToHigh"}>
+            Low To High
+          </button>
+        </div>
       </div>
       <CardComponent data={restaurantData} />
     </>

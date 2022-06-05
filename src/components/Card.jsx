@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import CardComponent from "./CardComponent";
 import data from "./data.json";
+import AddRestaurant from "./AddResturant";
 
 const Card = () => {
   const [restaurantData, setRestaurantData] = useState(data);
@@ -28,6 +29,7 @@ const Card = () => {
     setRestaurantData([...sortedData]);
   };
 
+
   const handlePaymentMethod = (event) => {
     const filterBy = event.target.dataset.value;
     const filteredData = data.filter((e) => {
@@ -37,6 +39,12 @@ const Card = () => {
     });
     setRestaurantData(filteredData);
   };
+
+
+  // const handleNewRestaurant = () => {
+  //   <AddRestaurant />;
+  // };
+
 
   return (
     <>
@@ -91,6 +99,7 @@ const Card = () => {
           </button>
         </div>
       </div>
+      <AddRestaurant/>
       <CardComponent data={restaurantData} />
     </>
   );

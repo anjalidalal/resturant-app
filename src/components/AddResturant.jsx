@@ -16,11 +16,11 @@ const AddRestaurant = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(text)
   };
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
-
     setText({
       ...text,
       [name]: type === "checkbox" ? checked : value,
@@ -28,90 +28,63 @@ const AddRestaurant = () => {
   };
 
   return (
-    <div>
+    <div className="add">
       <h1>Add Restaurant</h1>
-      <div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="form">
           <input
-            name="name"
             type="text"
             onChange={handleChange}
-            value=""
             placeholder="Add title"
+            name="name"
+            className="title"
           />
           <input
-            name="image"
             type="text"
-            value=""
+            onChange={handleChange}
             placeholder="Image url"
-            onChange={handleChange}
+            name="image"
+            className="img"
           />
+          <div className="row1">
           <input
-            name="about"
             type="text"
-            value=""
+            onChange={handleChange}
             placeholder="Categories"
-            onChange={handleChange}
+            name="about"
           />
           <input
+            type="text"
+            onChange={handleChange}
+            placeholder="Cost for one"
             name="cost"
-            type="text"
-            value=""
-            placeholder="Cost for tow"
-            onChange={handleChange}
-          />
-          <input
-            name="min"
-            type="text"
-            value=""
-            placeholder="Minimum cost"
-            onChange={handleChange}
           />
           <input
             name="rating"
             type="text"
-            value=""
             placeholder="Total stars"
             onChange={handleChange}
           />
           <input
             name="reviews"
             type="text"
-            value=""
             placeholder="Total reviews"
             onChange={handleChange}
           />
           <input
             name="votes"
             type="text"
-            value=""
             placeholder="Total votes"
             onChange={handleChange}
           />
-          <label>Payment</label>
-          <input
-            type="checkbox"
-            name="payment"
-            value=""
-            onChange={handleChange}
-            />
-            Accepts all payments
-          <input
-            type="checkbox"
-            name="payment"
-            value=""
-            onChange={handleChange}
-            />
-            Accepts online payments
-          <input
-            type="checkbox"
-            name="payment"
-            value=""
-            onChange={handleChange}
-            />
-            Accepts cash only
+          <select onChange={handleChange} name="payment" >
+            <option>Payment</option>
+            <option>Accepts all payments</option>
+            <option>Accepts online payments</option>
+            <option>Accepts cash only</option>
+          </select>
+          </div>
+            <input type="submit" value="ADD" className="submit" />
         </form>
-      </div>
     </div>
   );
 };

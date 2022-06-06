@@ -83,7 +83,8 @@ const AddRestaurant = () => {
             <option>Accepts cash only</option>
           </select>
           </div>
-            <input type="submit" value="ADD" className="submit" />
+            {/* <input type="submit" value="ADD" className="submit" /> */}
+            <button className="submit">Add</button>
         </form>
     </div>
   );

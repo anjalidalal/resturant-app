@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import data from "./data.json";
 
 const AddRestaurant = () => {
   const [text, setText] = useState({
@@ -13,12 +14,12 @@ const AddRestaurant = () => {
     votes: "",
     payment: "",
   });
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(text)
   };
-
+  
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setText({
@@ -26,6 +27,11 @@ const AddRestaurant = () => {
       [name]: type === "checkbox" ? checked : value,
     });
   };
+
+  const handlePush = () => {
+    console.log(data)
+    data.push(text) 
+  }
 
   return (
     <div className="add">
@@ -84,8 +90,8 @@ const AddRestaurant = () => {
           </select>
           </div>
             {/* <input type="submit" value="ADD" className="submit" /> */}
-            <button className="submit">Add</button>
         </form>
+            <button className="submit" onClick={handlePush} >Add</button>
     </div>
   );
 };

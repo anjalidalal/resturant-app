@@ -99,7 +99,7 @@ const Card = () => {
           </button>
         </div>
       </div>
-      <AddRestaurant/>
+      <AddRestaurant />
       <CardComponent data={restaurantData} />
     </>
   );

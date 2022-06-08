@@ -109,7 +109,6 @@ h3{
 }
 .add,
 .form{
-    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;

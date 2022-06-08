@@ -8,8 +8,7 @@
     "payment": "Accepts online payments",
     "rating": 4.3,
     "votes": "45 votes",
-    "reviews": "78 reviews",
-    "order": "Order Online"
+    "reviews": "78 reviews"
   },
   {
     "name": "Cheese Burger",
@@ -20,8 +19,7 @@
     "payment": "Accepts all payments",
     "rating": 1.5,
     "votes": "45 votes",
-    "reviews": "58 reviews",
-    "order": "Order Online"
+    "reviews": "58 reviews"
   },
   {
     "name": "Sandwich",
@@ -32,8 +30,7 @@
     "payment": "Accepts online payments",
     "rating": 2,
     "votes": "65 votes",
-    "reviews": "79 reviews",
-    "order": "Order Online"
+    "reviews": "79 reviews"
   },
   {
     "name": "Panner Pizza",
@@ -44,8 +41,7 @@
     "payment": "Accepts all payments",
     "rating": 4,
     "votes": "77 votes",
-    "reviews": "99 reviews",
-    "order": "Order Online"
+    "reviews": "99 reviews"
   },
   {
     "name": "Pepperoni Pizza",
@@ -55,8 +51,7 @@
     "payment": "Accepts online payments",
     "rating": 3.3,
     "votes": "40 votes",
-    "reviews": "78 reviews",
-    "order": "Order Online"
+    "reviews": "78 reviews"
   },
   {
     "name": "Pasta",
@@ -66,8 +61,7 @@
     "payment": "Accepts online payments",
     "rating": 1.3,
     "votes": "50 votes",
-    "reviews": "87 reviews",
-    "order": "Order Online"
+    "reviews": "87 reviews"
   },
   {
     "name": "Noodles",
@@ -77,8 +71,7 @@
     "payment": "Accepts all payments",
     "rating": 2.3,
     "votes": "59 votes",
-    "reviews": "89 reviews",
-    "order": "Order Online"
+    "reviews": "89 reviews"
   },
   {
     "name": "Cooked Squid",
@@ -88,8 +81,7 @@
     "payment": "Accepts cash only",
     "rating": 3,
     "votes": "79 votes",
-    "reviews": "97 reviews",
-    "order": "Order Online"
+    "reviews": "97 reviews"
   },
   {
     "name": "Cooked Ramen",
@@ -99,8 +91,7 @@
     "payment": "Accepts all payments",
     "rating": 2,
     "votes": "70 votes",
-    "reviews": "80 reviews",
-    "order": "Order Online"
+    "reviews": "80 reviews"
   },
   {
     "name": "White Ceramic",
@@ -110,8 +101,7 @@
     "payment": "Accepts online payments",
     "rating": 1.5,
     "votes": "50 votes",
-    "reviews": "90 reviews",
-    "order": "Order Online"
+    "reviews": "90 reviews"
   },
   {
     "name": "Cup Cake",
@@ -121,8 +111,7 @@
     "payment": "Accepts online payments",
     "rating": 2.5,
     "votes": "95 votes",
-    "reviews": "88 reviews",
-    "order": "Order Online"
+    "reviews": "88 reviews"
   },
   {
     "name": "Spring Rolls",
@@ -132,8 +121,7 @@
     "payment": "Accepts all payments",
     "rating": 3,
     "votes": "25 votes",
-    "reviews": "28 reviews",
-    "order": "Order Online"
+    "reviews": "28 reviews"
   },
   {
     "name": "Ice Cream",
@@ -143,8 +131,7 @@
     "payment": "Accepts online payments",
     "rating": 1.3,
     "votes": "85 votes",
-    "reviews": "88 reviews",
-    "order": "Order Online"
+    "reviews": "88 reviews"
   },
   {
     "name": "Delicious Desert",
@@ -154,8 +141,7 @@
     "payment": "Accepts online payments",
     "rating": 3.2,
     "votes": "95 votes",
-    "reviews": "98 reviews",
-    "order": "Order Online"
+    "reviews": "98 reviews"
   },
   {
     "name": "Momos",
@@ -165,8 +151,7 @@
     "payment": "Accepts all payments",
     "rating": 2.2,
     "votes": "45 votes",
-    "reviews": "68 reviews",
-    "order": "Order Online"
+    "reviews": "68 reviews"
   },
   {
     "name": "Bread With Soup",
@@ -176,8 +161,7 @@
     "payment": "Accepts all payments",
     "rating": 4.2,
     "votes": "44 votes",
-    "reviews": "22 reviews",
-    "order": "Order Online"
+    "reviews": "22 reviews"
   },
   {
     "name": "Sweetcorn Pasta",
@@ -187,8 +171,7 @@
     "payment": "Accepts online payments",
     "rating": 1.5,
     "votes": "45 votes",
-    "reviews": "75 reviews",
-    "order": "Order Online"
+    "reviews": "75 reviews"
   },
   {
     "name": "Cold Coffee",
@@ -198,8 +181,7 @@
     "payment": "Accepts online payments",
     "rating": 3,
     "votes": "65 votes",
-    "reviews": "70 reviews",
-    "order": "Order Online"
+    "reviews": "70 reviews"
   },
   {
     "name": "Burrito",
@@ -209,8 +191,7 @@
     "payment": "Accepts all payments",
     "rating": 2,
     "votes": "45 votes",
-    "reviews": "30 reviews",
-    "order": "Order Online"
+    "reviews": "30 reviews"
   },
   {
     "name": "Choclate Cake",
@@ -220,7 +201,6 @@
     "payment": "Accepts cash only",
     "rating": 5,
     "votes": "55 votes",
-    "reviews": "88 reviews",
-    "order": "Order Online"
+    "reviews": "88 reviews"
   }
 ]

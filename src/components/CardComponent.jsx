@@ -16,7 +16,7 @@ const CardComponent = ({ data }) => {
               <button className="rating">{e.rating}</button>
               <p>{e.votes}</p>
               <div>{e.reviews}</div>
-              <button className="order">{e.order}</button>
+              <button className="order">Order Online</button>
           </div>
         </div>
       ))}

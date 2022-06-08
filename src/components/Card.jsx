@@ -41,10 +41,10 @@ const Card = () => {
   };
 
 
-  // const handleNewRestaurant = () => {
-  //   <AddRestaurant />;
-  // };
-
+  const addNewRestaurant = (data) => {
+     console.log(data)
+     setRestaurantData([...restaurantData, data])
+  }
 
   return (
     <>
@@ -99,7 +99,7 @@ const Card = () => {
           </button>
         </div>
       </div>
-      <AddRestaurant />
+      <AddRestaurant addNewRestaurant={addNewRestaurant} />
       <CardComponent data={restaurantData} />
     </>
   );

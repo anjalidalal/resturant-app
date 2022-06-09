@@ -28,7 +28,7 @@ const AddRestaurant = ({addNewRestaurant}) => {
 
   const handlePushNewData = () => {
     addNewRestaurant(text)
-    setText(" ")
+    setText("")
   };
 
   return (

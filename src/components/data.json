@@ -160,7 +160,7 @@
     "cost":90,
     "payment": "Accepts all payments",
     "rating": 4.2,
-    "votes": "44 votes",
+    "votes": "40 votes",
     "reviews": "22 reviews"
   },
   {
@@ -181,7 +181,7 @@
     "payment": "Accepts online payments",
     "rating": 3,
     "votes": "65 votes",
-    "reviews": "70 reviews"
+    "reviews": "72 reviews"
   },
   {
     "name": "Burrito",
@@ -201,6 +201,6 @@
     "payment": "Accepts cash only",
     "rating": 5,
     "votes": "55 votes",
-    "reviews": "88 reviews"
+    "reviews": "80 reviews"
   }
 ]

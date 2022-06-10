@@ -170,7 +170,7 @@
     "cost": 540,
     "payment": "Accepts online payments",
     "rating": 1.5,
-    "votes": "45 votes",
+    "votes": "40 votes",
     "reviews": "75 reviews"
   },
   {
@@ -191,7 +191,7 @@
     "payment": "Accepts all payments",
     "rating": 2,
     "votes": "45 votes",
-    "reviews": "30 reviews"
+    "reviews": "50 reviews"
   },
   {
     "name": "Choclate Cake",
@@ -201,6 +201,6 @@
     "payment": "Accepts cash only",
     "rating": 5,
     "votes": "55 votes",
-    "reviews": "80 reviews"
+    "reviews": "85 reviews"
   }
 ]

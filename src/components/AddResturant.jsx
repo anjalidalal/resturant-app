@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import data from "./data.json";
+
 
 const AddRestaurant = ({addNewRestaurant}) => {
-  const [text, setText] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     image: "",
     about: "",
@@ -19,16 +19,16 @@ const AddRestaurant = ({addNewRestaurant}) => {
   };
 
   const handleInputChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setText({
-      ...text,
-      [name]: type === "checkbox" ? checked : value,
+    const { name, value} = e.target;
+    setFormData({
+      ...FormData,
+      [name]: value,
     });
   };
 
   const handlePushNewData = () => {
-    addNewRestaurant(text)
-    setText("")
+    addNewRestaurant(formData)
+    setFormData("")
   };
 
   return (
@@ -87,7 +87,6 @@ const AddRestaurant = ({addNewRestaurant}) => {
             <option>Accepts cash only</option>
           </select>
         </div>
-        {/* <input type="submit" value="ADD" className="submit" /> */}
       </form>
       <button className="submit" onClick={handlePushNewData}>
         Add

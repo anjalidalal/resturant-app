@@ -42,7 +42,6 @@ const Card = () => {
 
 
   const addNewRestaurant = (data) => {
-     console.log(data)
      setRestaurantData([...restaurantData, data])
   }
 
